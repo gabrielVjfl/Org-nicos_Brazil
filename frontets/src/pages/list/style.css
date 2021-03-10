@@ -27,6 +27,13 @@
     font-family: 'Nunito' arial;
     font-weight: 600;
 }
+#span_plus {
+    font-size: 19px;
+    color: white;
+    font-family: 'Nunito' arial;
+    font-weight: 600;
+    padding: 15px;
+}
 #span_item {
     font-size: 17px;
     color: rgb(3, 3, 3);
@@ -80,4 +87,12 @@
 #icon_zap {
     margin-left: 10px;
     border-radius: 15px;
+}
+#template_organicos {
+    display: flex;
+    
+}
+
+#template_organicos span img {
+   margin-left: 10px;
 }

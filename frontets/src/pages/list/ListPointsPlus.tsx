@@ -80,14 +80,14 @@ const ListPointsPlus = ({myid, handleClose}) => {
       {
         list.map(list =>
           <aside key={list.id}>
-            <span id="span">Nome:  </span><span id="span_item">  {list.name}</span><br />
-            <span id="span">Telefone:  </span><span id="span_item">  { list.telefone }</span><br/>
-            <span id="span">Email:  </span><span id="span_item">  {list.email}</span><br/>
-            <span id="span">Cidade:  </span><span id="span_item">  { list.city }</span><br/>
-            <span id="span">Estado:  </span><span id="span_item">  { list.uf }</span><br/>
-            <span id="span">Rua:  </span><span id="span_item">  { list.rua }</span><br/>
-            <span id="span">Bairro:  </span><span id="span_item">  { list.bairro }</span><br/>
-            <span id="span">Número:  </span><span id="span_item">  { list.numero }</span><br/>
+            <span id="span">Nome:  </span><span id="span_plus">  {list.name}</span><br />
+            <span id="span">Telefone:  </span><span id="span_plus">  { list.telefone }</span><br/>
+            <span id="span">Email:  </span><span id="span_plus">  {list.email}</span><br/>
+            <span id="span">Cidade:  </span><span id="span_plus">  { list.city }</span><br/>
+            <span id="span">Estado:  </span><span id="span_plus">  { list.uf }</span><br/>
+            <span id="span">Rua:  </span><span id="span_plus">  { list.rua }</span><br/>
+            <span id="span">Bairro:  </span><span id="span_plus">  { list.bairro }</span><br/>
+            <span id="span">Número:  </span><span id="span_plus">  { list.numero }</span><br/>
             <Map
          
          center={[list.latitude, list.longitude]}
@@ -120,7 +120,7 @@ const ListPointsPlus = ({myid, handleClose}) => {
       {
         listItems.map(list =>
           <aside key={list.id}>
-            <span>{list.title}</span><br/>
+            <span id="span_plus">{list.title}</span><br/>
             <img src={list.url} height="60px" width="60px"/>
          </aside>
           )
