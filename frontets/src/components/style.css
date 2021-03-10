@@ -1,0 +1,50 @@
+.templateItens {
+    height: 100px;
+     width: 100px;
+      background-color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+.templateItensSelect {
+    height: 100px;
+     width: 100px;
+      background-color: lightgreen;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    border: 2px solid green;
+}
+
+
+#templateItens:active {
+    background-color: #D2DFD8;
+
+}
+
+.btsubmit {
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 19px;
+    font-family: 'Nunito' arial;
+    font-weight: 600;
+    background-color: orange;
+    transition: all 0.6s;
+
+   
+}
+.btsubmit:hover {
+    background-color: rgb(0, 0, 0);
+    color: orange;
+    border: 2px solid green;
+    transition: all 0.6s;
+}

@@ -1,0 +1,6 @@
+ //.babelrc
+ { 
+    "plugins": [ 
+      "inline-react-svg" 
+    ] 
+  }

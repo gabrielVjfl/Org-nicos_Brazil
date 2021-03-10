@@ -1,0 +1,83 @@
+.map-popup .leaflet-popup-content {
+    font-size: 18px;
+   
+}
+
+.map-popup  .leaflet-popup-content-wrapper {
+    border: 2px solid #1AC442;
+    background-color: black;
+    color: white;
+    
+}
+.map-popup .leaflet-popup-content a .leaflet-popup-content-wrapper {
+    border-radius: 20px;
+    background-color: black;
+}
+.icon {
+    margin-left: 6px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+#span {
+    font-size: 19px;
+    color: #1AC442;
+    font-family: 'Nunito' arial;
+    font-weight: 600;
+}
+#span_item {
+    font-size: 17px;
+    color: rgb(3, 3, 3);
+    margin-left: 1vw;
+}
+#span_title_organicos {
+    color: orangered;
+    font-weight: 600;
+    font-size: 19px;
+}
+#hr {
+    width: 80%;
+    height: 1%;
+    color: white;
+}
+
+
+#container_list_filter {
+   text-align: center;
+   
+}
+
+#container_items {
+    display: flex;
+    background-color: rgb(48, 48, 48);
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid white;
+    margin-top: 8px;
+}
+#span_items {
+    color: white;
+    font-family: 'Inter' arial;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px;
+    
+}
+#card_header {
+    border-radius: 15px;
+    background-color: black;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Inter' arial;
+    font-weight: 600;
+}
+#icon_zap {
+    margin-left: 10px;
+    border-radius: 15px;
+}
